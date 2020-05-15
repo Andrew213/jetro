@@ -1,0 +1,215 @@
+@media (max-width: 950px) {
+     .works span::after {
+          width: calc((100vw - 144px) - 20px);
+     }
+}
+
+@media (max-width: 930px) {
+     .works__bottom {
+          display: none;
+     }
+
+     .works__bottom-item {
+          margin-right: 10px;
+     }
+
+     .desk-hidden {
+          display: flex;
+          flex-wrap: wrap;
+     }
+}
+
+@media (max-width: 900px) {
+     .slider__item-title {
+          top: auto;
+          bottom: 20px;
+     }
+
+     .slider__nav {
+          display: none;
+     }
+     .items__inner {
+          flex-wrap: wrap;
+     }
+     .item__text {
+          padding-left: 10px;
+     }
+     .slider {
+          min-height: auto;
+          max-height: 400px;
+     }
+
+     .items__inner {
+          margin-top: 15px;
+     }
+}
+
+@media (max-width: 860px) {
+     .slider__item-title {
+          left: 0;
+          right: 0;
+          margin: auto;
+     }
+     .item {
+          width: auto;
+          max-width: 100%;
+          text-align: center;
+          margin-top: 50px;
+     }
+     .item__title {
+          padding: 0;
+          margin-bottom: 20px;
+     }
+     .item__title.title-social::before,
+     .item__title.title-services::before,
+     .item__title.title-portfolio::before {
+          top: -10px;
+     }
+     .footer__inner-item.widget {
+          padding: 0 10px;
+     }
+     .footer__inner {
+          flex-wrap: wrap;
+     }
+}
+@media (max-width: 800px) {
+     .header__menu-btn {
+          display: block;
+     }
+
+     .header__menu-list {
+          display: none;
+          position: absolute;
+          top: 78px;
+          left: 0;
+          right: 0;
+          width: 100%;
+          z-index: 4;
+          background-color: #000;
+          border: 5px solid #e8663c;
+          border-top: 1px solid transparent;
+     }
+
+     .header__menu-list li {
+          display: block;
+          text-align: center;
+     }
+
+     .header__menu li + li {
+          margin-left: 0;
+     }
+
+     .header__menu li:not(:last-child) {
+          border-bottom: 1px solid #ccc;
+     }
+
+     .header__menu a {
+          display: block;
+          padding: 12px 0;
+     }
+}
+
+@media (min-width: 800px) {
+     .header__menu > ul {
+          display: block !important;
+     }
+}
+
+@media (max-width: 783px) {
+     .footer__inner-item.contact {
+          width: 100%;
+          max-width: 100%;
+          margin-top: 20px;
+          text-align: center;
+     }
+}
+
+@media (max-width: 630px) {
+     .slider__item-title {
+          padding: 0 0 10px 0;
+          text-align: center;
+          min-height: auto;
+     }
+
+     .slick-arrow img,
+     .slick-arrow {
+          width: 30px;
+          top: 50%;
+     }
+}
+
+@media (max-width: 590px) {
+     .slider__item-title {
+          max-width: auto;
+          top: 0;
+          bottom: auto;
+     }
+
+     .slick-arrow img,
+     .slick-arrow {
+          width: 20px;
+          bottom: 20px;
+          top: auto;
+     }
+}
+
+@media (max-width: 514px) {
+     .footer__inner-item {
+          width: 100%;
+          margin-top: 20px;
+          text-align: center;
+     }
+     .footer__inner {
+          padding-right: 10px;
+     }
+}
+
+@media (max-width: 500px) {
+     .slider__item-title {
+          max-width: 320px;
+          top: 0;
+          right: 20px;
+          bottom: auto;
+     }
+
+     .item__title.title-social::before,
+     .item__title.title-services::before,
+     .item__title.title-portfolio::before {
+          display: none;
+     }
+}
+
+@media (max-width: 468px) {
+     .first-column,
+     .second-column {
+          display: block;
+     }
+}
+
+@media (max-width: 400px) {
+     .slider__item-heading {
+          margin-bottom: 10px;
+     }
+}
+
+@media (max-width: 390px) {
+     .slider__item-title {
+          right: 0;
+          left: 0;
+     }
+}
+
+@media (max-width: 340px) {
+     .slider__item-heading {
+          font-size: 14px;
+          margin-bottom: 5px;
+     }
+     .slider__item-title {
+          padding: 5px 5px 0 5px;
+     }
+
+     .slick-arrow img,
+     .slick-arrow {
+          display: none;
+     }
+}
