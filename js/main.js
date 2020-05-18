@@ -17,17 +17,6 @@ $(function () {
         variableWidth: true,
         focusOnSelect: true,
         arrows: false,
-        responsive: [{
-                breakpoint: 950,
-                settings: {
-                    slidesToShow: 5,
-                    // slidesToScroll: 1,
-
-                }
-            },
-
-
-        ]
 
 
 
